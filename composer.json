@@ -1,0 +1,14 @@
+{
+    "name": "alancole/maths",
+    "authors": [
+        {
+            "name": "Alan Cole",
+            "email": "me@alancole.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AlanCole\\Maths\\Primes\\": "src/AlanCole/Maths/Primes"
+        }
+    }
+}
