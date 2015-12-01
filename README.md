@@ -18,7 +18,7 @@ require "vendor/autoload.php";
 use AlanCole\Maths\Primes as Prime;
 
 $sieve = new Prime\Sieve;
-$primes = $sieve->getPrimes(10);
+$primes = $sieve->getPrimesUnder(10);
 
 // Get the sum of our primes.
 $total = array_sum($primes);

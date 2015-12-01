@@ -21,7 +21,7 @@ class Sieve
      * @param int $limit
      * @return array $primes
     */
-    public function getPrimes($limit = 0)
+    public function getPrimesUnder($limit = 0)
     {
         if ($limit) {
             $this->limit = $limit;
