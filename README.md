@@ -21,9 +21,7 @@ $sieve = new Prime\Sieve;
 $primes = $sieve->getPrimes(10);
 
 // Get the sum of our primes.
-$total = array_reduce($primes, function ($running, $next) {
-    return $running + $next;
-});
+$total = array_sum($primes);
 
 print $total;
 ```
